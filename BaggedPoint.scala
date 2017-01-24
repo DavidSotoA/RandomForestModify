@@ -133,7 +133,7 @@ object BaggedPoint {
   // Realizar pruebas
   // Usar Datum
 
-  private def convertToBaggedRDDSamplingWithReplacementForDesbalancedClass(
+  private def convertToBaggedRDDSamplingWithReplacementForDesbalancedClass (
       input: RDD[TreePoint],
       subsampleMinorityClass: Double,
       numSubsamples: Int,
